@@ -71,8 +71,8 @@ app.use(express.urlencoded({ extended: false }));*/
 
 var mysqlConnection = mysql.createConnection({
   host: 'musicdb.coxxbjw0iq0i.us-east-1.rds.amazonaws.com',
-  user: 'devuser',
-  password: 'Hola123*',
+  user: '**********************',
+  password: '***********************',
   port: 3306,
   database: 'dbvirt'
 });
